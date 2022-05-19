@@ -1,0 +1,39 @@
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .image_container {
+    width: 0%;
+    height: calc(100vh - 50px);
+    overflow: hidden;
+  }
+
+  .main {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+    .heading {
+      color: #111;
+      text-transform: uppercase;
+      font-size: 50px;
+
+      h2 {
+        background-color: #fff;
+        overflow: hidden;
+        font-family: 'Cinzel';
+        font-weight: normal;
+        line-height: 130px;
+
+        span {
+          display: inline-block;
+          transform: translateY(100%);
+        }
+      }
+    }
+  }
+}

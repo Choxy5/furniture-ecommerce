@@ -1,0 +1,30 @@
+.contact {
+  height: 45vh;
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  place-items: center;
+  gap: 30px;
+
+  .title_contact {
+    overflow: hidden;
+
+    h2 {
+      font-family: 'Cinzel';
+      font-size: 60px;
+      font-weight: normal;
+      // margin-bottom: 60px;
+    }
+  }
+
+  input {
+    width: 50%;
+    border: none;
+    border-bottom: 1.5px solid #000;
+    background-color: transparent;
+    outline: none;
+    padding: 10px 0;
+  }
+}

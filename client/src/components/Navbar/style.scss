@@ -1,0 +1,15 @@
+.navbar {
+  height: 50px;
+  width: 100%;
+  padding: 0 50px;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  div {
+    font-family: 'Cinzel';
+    font-weight: bold;
+  }
+}
