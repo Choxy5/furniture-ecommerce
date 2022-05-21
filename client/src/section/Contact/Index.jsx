@@ -1,20 +1,20 @@
 import React, { useEffect } from 'react';
 import './style.scss';
-// import { gsap } from 'gsap';
-// import ScrollTrigger from 'gsap/ScrollTrigger';
-// gsap.registerPlugin(ScrollTrigger);
+import { gsap } from 'gsap';
+import ScrollTrigger from 'gsap/ScrollTrigger';
+gsap.registerPlugin(ScrollTrigger);
 
 function Contact() {
   useEffect(() => {
-    // const tl = gsap.timeline();
+    const tl = gsap.timeline();
 
-    // ScrollTrigger.create({
-    //   trigger: '.contact',
-    //   start: 'center 50%',
-    //   onEnter: () => {
-    //     tl.fromTo('.title_heading', { y: 300 }, { y: 0, duration: 1 });
-    //   },
-    // });
+    ScrollTrigger.create({
+      trigger: '.contact',
+      start: 'top 90%',
+      onEnter: () => {
+        tl.fromTo('.title_heading', { y: 300 }, { y: 0, duration: 1 });
+      },
+    });
   }, []);
 
   return (

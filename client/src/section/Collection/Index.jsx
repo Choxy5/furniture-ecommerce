@@ -14,9 +14,13 @@ function Collection() {
     const tl = gsap.timeline();
     ScrollTrigger.create({
       trigger: '.collection',
-      start: 'top 70%',
+      start: 'top 98%',
       onEnter: () => {
-        tl.fromTo('.button', { scale: 0 }, { scale: 1, duration: 1, delay: 1 });
+        tl.fromTo(
+          '.button',
+          { scale: 0 },
+          { scale: 1, duration: 1, delay: 1 }
+        );
         tl.fromTo('.info', { y: 100 }, { y: 0, duration: 1 });
       },
     });
